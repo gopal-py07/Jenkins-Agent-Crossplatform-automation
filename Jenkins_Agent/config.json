@@ -1,0 +1,13 @@
+{
+    "JENKINS_SERVER_URL" : "http://172.27.231.128:8080",
+    "AGENT_DETAILS" : {
+        "LINUX" : {
+            "AGENT_NAME": "jenkins-agent-linux",
+            "AGENT_WORKDIR": "/var/lib/jenkins"
+        },
+        "WINDOWS":{
+            "AGENT_NAME": "jenkins-agent-windows",
+            "AGENT_WORKDIR": "C:\\Jenkins\\agent"
+        }
+    }
+}

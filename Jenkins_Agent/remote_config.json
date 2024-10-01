@@ -1,0 +1,22 @@
+{
+    "JENKINS_SERVER_URL": "http://172.27.231.128:8080",
+    "AGENT_DETAILS": {
+        "LINUX": [
+            {
+                "REMOTE_USER": "gopal",
+                "REMOTE_HOST": "INPUN0239NB",
+                "AGENT_NAME": "linux-agent-1",
+                "AGENT_WORKDIR": "/home/jenkins/agent1"
+            }
+        ],
+        "WINDOWS": [
+            {
+                "REMOTE_USER": "11549",
+                "REMOTE_HOST": "INPUN0239NB",
+                "AGENT_NAME": "windows-agent-1",
+                "AGENT_WORKDIR": "C:\\jenkins"
+            }
+        ]
+    },
+    "IS_REMOTE": true
+}
